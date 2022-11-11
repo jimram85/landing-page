@@ -54,12 +54,42 @@ img{
 
 .container-two{
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
+    background-color:#f9faf9;
+    /* flex-wrap:wrap; */
+    gap:50px;
+    padding:30px;
+    color:#1f2937
     
 
+
 }
+
+h2{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    color: #1f2937;
+    background-color: #f9faf9;
+    margin:0;
+    padding:15px;
+    font-size: 35px;
+    gap:10px;
+    
+}
+
+
+.tool-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
 
 .container-three{
     background-color:grey;
+    
 }
+
 
