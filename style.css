@@ -7,9 +7,10 @@ body{
 .header{
     background-color:#1f2937;
     display:flex;
-    padding:10px;
+    padding:10px 15px;
     justify-content: space-between;
     align-items: center;
+    /* box-shadow:  1px 4px #e5e7eb; */
     
 }
 h1{
@@ -29,9 +30,14 @@ a{
     font-size: 18px;
     align-content: center;
 }
+.main-image{
+    border:0px;
+    margin-left:150px;
+    
+}
 .container-one{
     display: flex;
-    padding:16px;
+    padding:30px;
     flex-direction: row;
     background-color:#1f2937;
     color:#f9faf9;
@@ -44,12 +50,15 @@ button{
     background-color: #3882f6;
     font-size: 20px;
     color:#f9faf9;
+    margin-top:10px;
     
 }
 img{
     width:250px;
     margin:20px;
-    flex:none;
+    
+
+    /* flex:none; */
 
 }
 
@@ -106,17 +115,22 @@ h2{
 }
 
 .container-four{
-background:#3882f6;
-    /* width: 480px; */
-    border-radius: 10px;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items:center;
     padding:20px;
+    color:#f9faf9;
 }
 
+.action{
+    background:#3882f6;
+    /* width: 480px; */
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    padding:5px;
+}
 footer{
     display:flex;
     justify-content: center;
